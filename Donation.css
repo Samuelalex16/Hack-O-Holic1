@@ -1,0 +1,10 @@
+body {
+    background-color: cornsilk;
+    background-image: url("Images/Badrinath.jpg");
+    background-image: url("Images/Church\,\ Kotdwara.jpg");
+    background-image: url("Images/Devprayag.jpg");
+    background-image: url("Images/Gangotri.jpg");
+    background-image: url("Images/Kedarnath.jpg");
+    background-image: url("Images/StMaryLansdowne.jpeg");
+    background-attachment: fixed;
+}

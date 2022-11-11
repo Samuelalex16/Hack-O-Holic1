@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttarakhand - Donation Form </title>
+    <link rel="stylesheet" href="Travel.css">
+    <script src="Donation.js"></script>
+</head>
+<body align = "center">
+    <h2><u>Donation Form</u></h2>
+    <form action="Travel.py">
+        <div>
+            <label for="FName">First Name: </label><input type="text" name="" id="FName" placeholder="First Name">
+            <label for="MName">Middle Name: </label><input type="text" name="" id="MName" placeholder="Middle Name">
+            <label for="LName">Last Name: </label><input type="text" name="" id="LName" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="Email">E-mail: </label><input type="email" name="" id="Email" placeholder="Email">
+        </div>
+        <br>
+        <div>
+            <label for="Date">Date: </label><input type="date" name="" id="Date">
+        </div>
+        <br>
+        <div>
+            Gender: <label for="Male"> Male </label><input type="radio" name="Gender" id="Male"><label for="Female"> Female </label><input type="radio" name="Gender" id="Female"><label for="Other"> Other </label><input type="radio" name="Gender" id="Other">
+        </div>
+        <br>
+        <div>
+            <label for="Nationality">Nationality:</label>
+            <select name="Nationality" id="Nationality">
+                <option value="non" selected>None</option>
+                <option value="ind">Indian</option>
+                <option value="non-ind">Non-Indian</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- This number must be positive. -->
+            <label for="Tourists">Number of Tourists: </label><input type="number" name="Tourists" id="Tourists" placeholder="Number of Tourists">
+        </div>
+        <br>
+        <div>
+            Destinations<br>
+            <label for="Rishikesh"> Rishikesh </label><input type="checkbox" name="Deestination" id="Rishikesh">
+            <label for="Dehradun"> Dehradun </label><input type="checkbox" name="Deestination" id="Dehradun">
+            <label for="Mussoorie"> Mussoorie </label><input type="checkbox" name="Deestination" id="Mussoorie">
+        </div>
+        <br>
+        <div>
+            <label for="Comment">Comment</label><br><textarea id="Comment" placeholder="Comment"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset Form">
+            <input type="submit" value="Book your Journey">
+        </div>
+    </form>
+</body>
+</html>
